@@ -81,4 +81,13 @@ st.bar_chart(df.set_index("Họ tên")["Tổng kết"])
 
 # Thông tin người tạo
 st.divider()
-st.caption("Người tạo: Điền họ tên của bạn | MSSV: Điền mã sinh viên")
+
+st.markdown(
+    """
+    <div style="text-align: center; color: gray; font-size: 12px;">
+        Người tạo:Đoàn Trương Huy Hoàn <br>
+        MSSV: 052208004433
+    </div>
+    """,
+    unsafe_allow_html=True
+)
